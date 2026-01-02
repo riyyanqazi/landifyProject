@@ -197,7 +197,7 @@ body {
   margin-top: 20px;
 }
 
-/* SECTION */
+/* SECTION */ 
 .testimonials {
     background: #D5FAFC;
     padding: 96px;
@@ -209,7 +209,7 @@ body {
 }
 
 /* HEADER */
-.testimonials-header {
+.testimonial--right {
     position: relative;
     margin-bottom: 64px;
 }
@@ -328,8 +328,8 @@ body {
 }
 
 .stat-icon {
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
 }
 
 .stat-number {
@@ -365,8 +365,7 @@ body {
 /* MEDIA BOX */
 .feature-showcase__media {
     /* width: 100%; */
-    border: 2px solid darkblue;
-    height: 540px;
+      height: 540px;
     background: #F1E4FF;
     border-radius: 8px;
     position: relative;
@@ -791,7 +790,9 @@ padding-top: 4px;
     height: auto;
     display: block;
 }
-
+.ts-3{
+  /* width: 700px; */
+}
 }
 
 /* Desktop */
@@ -1098,5 +1099,15 @@ letter-spacing: 0%;
     height: auto;
     display: block;
 }
-
+.ts-1{
+  width: 350px;
+  border: 2px solid gold;
+}
+.ts-2{
+  width: 445px;
+  border: 2px solid darkolivegreen;
+}
+.ts-3{
+  width: 350px;
+}
 }
