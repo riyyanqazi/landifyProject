@@ -150,6 +150,9 @@ body {
 
 }
 
+.testimonial__text{
+  font-family: Manrope;
+}
 
 
 .cta-para {
@@ -225,6 +228,7 @@ body {
 .testimonials-heading {
   font-family:  Manrope;
     position: relative;
+
     z-index: 2;
 }
 
@@ -385,7 +389,7 @@ body {
 /* CONTENT */
 .feature-showcase__content {
     max-width: 540px;
-    margin-left: auto;
+    /* margin-left: auto; */
 }
 
 /* TITLE */
@@ -422,7 +426,7 @@ body {
     font-family: Manrope;
 font-weight: 400;
 font-size: 18px;
-line-height: 45px;
+line-height: 33px;
 letter-spacing: 0%;
 
   }
@@ -455,7 +459,7 @@ padding-top: 4px;
 
 
 
-/* RESPONSIVE */
+
 @media (max-width: 992px) {
     .feature-showcase {
         padding: 48px 20px;
@@ -481,7 +485,7 @@ padding-top: 4px;
 
 
 
-/* MOBILE FIX */
+
 @media (max-width: 350px) {
     .info-1 {
         width: 100%;
@@ -608,6 +612,9 @@ padding-top: 4px;
     letter-spacing: 0%;
 
   }
+.testimonial__text{
+  font-family: Manrope;
+}
 
   .star-sec {
     margin-top: 60px
@@ -739,9 +746,7 @@ padding-top: 4px;
 
   }
 
-  .img1 {
-    display: none;
-  }
+  
 
 
 .features-achieve{
@@ -1079,6 +1084,10 @@ letter-spacing: 0%;
     padding: 64px 0;
 }
 
+.testimonials-heading{
+  padding-left: 210px;
+  /* align-items: right; */
+}
 .fashion-hero__title {
   font-family: Manrope;
     font-weight: 800;
@@ -1101,13 +1110,19 @@ letter-spacing: 0%;
 }
 .ts-1{
   width: 350px;
-  border: 2px solid gold;
 }
 .ts-2{
   width: 445px;
-  border: 2px solid darkolivegreen;
 }
 .ts-3{
   width: 350px;
+}
+.testimonial__text{
+  font-family: Manrope;
+}
+
+.testimonial__author{
+  padding-left: 25px;
+  /* text-align: ; */
 }
 }
