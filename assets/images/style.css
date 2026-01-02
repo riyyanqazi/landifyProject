@@ -364,7 +364,8 @@ body {
 
 /* MEDIA BOX */
 .feature-showcase__media {
-    width: 100%;
+    /* width: 100%; */
+    border: 2px solid darkblue;
     height: 540px;
     background: #F1E4FF;
     border-radius: 8px;
