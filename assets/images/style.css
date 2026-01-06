@@ -798,6 +798,24 @@ padding-top: 4px;
 @media (min-width: 992px) {
 
 
+
+
+
+.hero-sec {
+  background: url("./Background.png") center / cover no-repeat;
+  min-height: 100vh; 
+  display: flex;
+  align-items: center;
+}
+
+
+
+.nav-sec{
+  position: absolute;
+}
+
+
+
   .sec-head {
     font-size: 73px;
 padding-left: 30px;
@@ -808,6 +826,25 @@ padding-left: 30px;
     white-space: nowrap;
   }
 
+/* slider */
+
+.slider-sec{
+  display: flex;
+}
+
+.divider{
+  margin-top: 40px;
+  padding-top: 10px;
+  border-top: 1px solid rgb(241, 241, 241);
+}
+.divider-bottom{
+  padding-top: 10px;
+  border-bottom: 1px solid rgb(241, 241, 241);
+
+}
+marquee{
+padding: 30px;
+}
   .btn-sec {
     border: none;
     height: 60px;
@@ -1029,6 +1066,12 @@ padding-top: 40px;
   .getapp-cta {
     font-family: Manrope;
     text-align: left;
+  font-family: Manrope;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0%;
+
   }
 
   
@@ -1054,9 +1097,7 @@ padding-top: 40px;
     margin-top: 80px;
   }
 
-  .sec-head{
-    padding-top: 280px;
-  }
+  
   .inner-cta {
     max-width: 600px;
     /* border: 2px solid darkkhaki; */
