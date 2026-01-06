@@ -215,7 +215,7 @@ padding-top: 20px;
 
 .testimonial__quote {
     position: absolute;
-    top: -15px;
+    top: -30px;
     left: 120px;
     z-index: 1;
 }
@@ -811,7 +811,7 @@ padding-left: 30px;
   .btn-sec {
     border: none;
     height: 60px;
-    margin-left: 40px;
+    margin-left: 70px;
   }
 
 
@@ -830,7 +830,18 @@ font-family: Manrope;
     text-align: center;
 
   }
+h5{
+  font-family: Manrope;
+  color: #18191F;
+  font-family: Manrope;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
 
+;
+}
   .fea-para {
     font-family: Manrope;
     font-weight: 400;
@@ -1150,5 +1161,22 @@ line-height: 24px;
 letter-spacing: 0%;
 color: #D9DBE1;
 }
+.getapp-footer{
+  font-family: Manrope;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0%;
+color: #D9DBE1;
 
+
+}
+.right-sec{
+height: 140.0001983642578;
+gap: 16px;
+opacity: 1;
+top: 56px;
+left: 1115px;
+
+}
 }
