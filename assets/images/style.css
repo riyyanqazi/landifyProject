@@ -106,6 +106,22 @@ body {
   margin-top: 10px;
 }
 
+
+.img-fea{
+width: 100%;
+
+}
+
+.hero-sec{
+  padding-top: 90px;
+  font-family: Manrope;
+  text-align: center;
+}
+.btn-sec{
+  height: 40px;
+}
+
+
 .card1-para {
   font-family: Manrope;
   font-weight: 400;
@@ -566,6 +582,9 @@ footer {
   width: auto;
   opacity: 0.8;
 }
+.brands-marquee{
+  overflow: hidden;
+}
 .sld{
   padding-top: 40px;
   animation: slider  ease-in 8s infinite ;
@@ -650,6 +669,19 @@ marquee {
     line-height: 60px;
   }
 
+
+  .hero-heading{
+    padding-top: 100px;
+    font-family: Manrope;
+    font-weight: 800;
+    text-align: center;
+
+    
+  }
+
+  
+  
+
   .btn-sec {
     height: 50px;
     display: block;
@@ -666,6 +698,9 @@ marquee {
     line-height: 64px;
     letter-spacing: 0%;
     text-align: center;
+  }
+  .her-img{
+    padding-top: 30px;
   }
 
   .fea-para {
@@ -1091,9 +1126,11 @@ marquee {
 }
 
 .hero-sec{
+  
   padding-top: 190px;
 }
 .hero-heading{
+  text-align: left;
   font-family: Manrope;
 font-weight: 800;
 font-size: 72px;
@@ -1462,6 +1499,32 @@ margin: 0px;
     height: 684px;
     padding: 64px 0;
   }
+
+.heading-sec-fea{
+  font-family: Manrope;
+font-weight: 800;
+font-size: 40px;
+line-height: 54px;
+letter-spacing: 0%;
+
+}
+.pra-fea{
+  font-family: Manrope;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: 0%;
+
+}
+.right-sec-fea{
+  width: 540;
+height: 308;
+gap: 32px;
+opacity: 1;
+padding-right: 48px;
+padding-left: 48px;
+
+}
 
   .testimonials-heading {
     position: relative;
