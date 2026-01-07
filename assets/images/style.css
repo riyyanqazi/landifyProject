@@ -5,6 +5,13 @@
   padding:0px;
 
 }
+
+p,
+h1,
+h2, h3, h4, h5,h6 {
+  margin-bottom: 0;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -375,7 +382,6 @@ padding-top: 80px;
   font-family: Manrope;
   font-size: 16px;
   line-height: 26px;
-  margin-top: 8px;
 }
 
 /* STATS */
@@ -402,7 +408,7 @@ padding-top: 80px;
 
   font-size: 16px;
   line-height: 26px;
-  margin-top: 4px;
+padding: 4px;
 }
 
 .features-achieve {
@@ -947,7 +953,6 @@ marquee {
     width: 232;
     height: 464px;
     opacity: 1;
-    margin-left: 10px;
 
   }
 
@@ -1532,6 +1537,7 @@ text-align: left;
 font-weight: 400;
 font-size: 18px;
 line-height: 32px;
+padding-top:30px;
 letter-spacing: 0%;
 text-align: left;
 }
