@@ -1090,8 +1090,10 @@ marquee {
   row-gap: 3px;
 }
 
+.hero-sec{
+  padding-top: 190px;
+}
 .hero-heading{
-  padding-top: 230px;
   font-family: Manrope;
 font-weight: 800;
 font-size: 72px;
@@ -1099,9 +1101,7 @@ line-height: 98px;
 letter-spacing: 0%;
 
 }
-.her-img{
-  padding-top:130px;
-}
+
 .btn-sec{
 opacity: 1;
 border-radius: 8px;
