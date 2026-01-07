@@ -37,9 +37,6 @@ body {
   border: none;
 }
 
-.btn-sec:hover {
-  box-shadow: 5px 5px 5px rgb(126, 126, 126);
-}
 
 /* Heading */
 
@@ -1046,7 +1043,7 @@ marquee {
     }
 
     100% {
-      transform: translateX(-50%);
+      transform: translateX(-20%);
     }
   }
 
@@ -1106,6 +1103,7 @@ border-radius: 8px;
 margin: 0px;
 }
 .btn:hover{
+  
   cursor: pointer;
 }
   .hero-sec {
