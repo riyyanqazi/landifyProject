@@ -566,8 +566,13 @@ footer {
   width: auto;
   opacity: 0.8;
 }
+.sld{
+  padding-top: 40px;
+  animation: slider  ease-in 8s infinite ;
 
-@keyframes marquee {
+}
+
+@keyframes slider {
   0% {
     transform: translateX(0);
   }
