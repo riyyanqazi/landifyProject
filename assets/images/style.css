@@ -941,7 +941,7 @@ marquee {
   }
 
   .img2 {
-    padding-top: 88px;
+    padding-top: 40px;
     display: block;
     margin: auto 0px;
     width: 232;
@@ -1542,7 +1542,7 @@ height: 308;
 gap: 32px;
 opacity: 1;
 padding-right: 48px;
-padding-left: 48px;
+padding-left: 3rem;
 
 }
 
