@@ -388,7 +388,7 @@ letter-spacing: 0%;
 
 /* SECTION */
 .achievements {
-padding-top: 80px;
+margin-top: 80px;
 }
 
 /* LEFT CONTENT */
@@ -638,6 +638,11 @@ footer {
   animation: slider  ease-in 8s infinite ;
 
 }
+.heading-sec-fea{
+  font-size: 38px;
+  font-family: Manrope;
+  font-weight: 800px;
+}
 
 @keyframes slider {
   0% {
@@ -757,7 +762,6 @@ marquee {
     line-height: 32px;
     letter-spacing: 0%;
     text-align: center;
-    background-color: red;
 
   }
   .head-pra-fea{
@@ -769,6 +773,10 @@ letter-spacing: 0%;
 text-align: center;
   }
  
+  .achievements-right-sec{
+display: flex;
+justify-content: space-evenly;
+  }
 
   h2 {
     font-size: 17px;
@@ -998,7 +1006,7 @@ text-align: center;
 
 
   .features-achieve {
-    font-size: 30px;
+    font-size: 48px;
   }
 
   .stat-number {
@@ -1291,7 +1299,10 @@ margin: 0px;
   }
 
   
-
+.testimonials-{
+display: flex;
+justify-content: end;
+}
 
 
   strong {
@@ -1377,7 +1388,9 @@ margin: 0px;
     background-color: white;
   }
 
-
+.head-pra-fea{
+  text-align: left;
+}
 
 
 
@@ -1534,7 +1547,10 @@ margin: 0px;
     letter-spacing: 0%;
 
   }
-
+.testimonial-{
+  display: flex;
+  justify-content: end;
+}
 
 
   .inner-cta {
@@ -1589,10 +1605,9 @@ padding-left: 3rem;
 
   .testimonials-heading {
     position: relative;
-
-    padding-left: 210px;
-    /* align-items: right; */
   }
+l    /* align-items: right; */
+  
 
   .testimonial__quote {
     position: absolute;
