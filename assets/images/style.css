@@ -1767,3 +1767,8 @@ l    /* align-items: right; */
     display: block;
   }
 }
+@media (max-width:1200px) {
+ .img2{
+  display: none;
+ } 
+}
