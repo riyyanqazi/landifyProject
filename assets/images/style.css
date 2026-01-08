@@ -547,7 +547,6 @@ justify-content: center;
 
 .fashion-hero__image {
   width: 100%;
-  height: auto;
   display: block;
 }
 
@@ -1092,7 +1091,6 @@ justify-content: space-evenly;
 
   .fashion-hero__image {
     width: 100%;
-    height: auto;
     display: block;
   }
 
@@ -1679,7 +1677,6 @@ l    /* align-items: right; */
 
   .fashion-hero__image {
     width: 100%;
-    height: auto;
     display: block;
   }
 
