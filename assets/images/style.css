@@ -192,7 +192,6 @@ text-align: right;
 
 .feature-img{
   width: 540px;
-height: 540px;
 opacity: 1;
 }
 
@@ -500,6 +499,10 @@ justify-content: center;
   opacity: 0.85;
 }
 
+.rigt-img{
+  display: flex;
+  justify-content: center;
+}
 .feature-showcase__cta:active {
   transform: translateY(0);
   opacity: 1;
@@ -530,7 +533,7 @@ justify-content: center;
   font-weight: 800;
   font-size: 33px;
   line-height: 40px;
-  margin: 0;
+  margin: 0;  
 }
 
 .fashion-hero__desc {
@@ -651,6 +654,7 @@ footer {
 .heading-sec-fea{
   font-family: Manrope;
 font-weight: 800;
+margin-top: 20px;
 font-size: 38px;
 line-height: 54px;
 letter-spacing: 0%;
@@ -1002,7 +1006,7 @@ justify-content: space-evenly;
     text-align: center;
     font-family: Manrope;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 38px;
     line-height: 45px;
     letter-spacing: 0%;
     margin-top: 10px;
@@ -1073,8 +1077,8 @@ justify-content: space-evenly;
   .fashion-hero__title {
     font-family: Manrope;
     font-weight: 800;
-    font-size: 28px;
-    line-height: 40px;
+    font-size: 38px;
+    line-height: 50px;
     margin: 0;
   }
 
@@ -1083,7 +1087,7 @@ justify-content: space-evenly;
     font-size: 16px;
     margin-top: 4px;
     line-height: 30px;
-    margin: 0;
+    margin-top: 20px;
   }
 
   .fashion-hero__image {
